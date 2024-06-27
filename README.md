@@ -37,7 +37,7 @@ class Dog : Animal() {
 ```
 
 ## Interface 
-- when you need to define a common set of methods that multiple classes can implement, especially if you require multiple inheritance.
+- when you need to define a common set of methods that multiple classes can implement, especially if you require multiple inheritance. Interfaces can also inherit from multiple other interfaces to combine behavior
 
 ```
 interface Drivable {
