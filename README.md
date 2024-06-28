@@ -5,7 +5,7 @@
  `fun main () {
  }`
 ## Variables
-`var wildcard: any = "Any Data type"`
+`var wildcard: Any = "Any Data type"`
 
  ` var num: Int = 5 `  
 
