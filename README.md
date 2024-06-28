@@ -4,10 +4,15 @@
 ## Main
  `fun main () {
  }`
+ ## keyword
+ - `var` // read/write
+ - `val ` // read only
+ - `const val `// static final and must be diffined outside/before function
+   
 ## Variables
-`var wildcard: Any = "Any Data type"`
+`var wildcard: Any = "Any Data type"` - Be careful using
 
- ` var num: Int = 5 `  
+ ` var num: Int = 5 `  or   ` var num = 5 ` - (Defined vs Inferred)
 
  `var num2: Int = 11`
  
