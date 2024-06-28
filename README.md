@@ -5,6 +5,7 @@
  `fun main () {
  }`
 ## Variables
+`var wildcard: any = "Any Data type"`
 
  ` var num: Int = 5 `  
 
@@ -12,7 +13,9 @@
  
 `var numdb: Double = 5.0`
 
-`val numl: Long = 5`
+`val numl: Long = 500L`
+
+`val numl: Float = 3.14F`
 
 `var character: Char = 'a'`
 
