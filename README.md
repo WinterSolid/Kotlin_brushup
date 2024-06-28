@@ -6,8 +6,8 @@
  }`
  ## keyword
  - `var` // read/write
- - `val ` // read only
- - `const val `// static final and must be diffined outside/before function
+ - `val` // read only
+ - `const val`// static final and must be diffined outside/before function
    
 ## Variables
 `var wildcard: Any = "Any Data type"` - Be careful using
