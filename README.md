@@ -64,3 +64,8 @@ class Bike : Drivable {
     }
 }
  ```
+## FYI
+### ==
+- checks for structural equality, meaning it checks if the values of the objects are the same.
+### === 
+- checks for referential equality, meaning it checks if the two references point to the same object.
