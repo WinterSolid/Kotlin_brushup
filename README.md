@@ -71,4 +71,6 @@ class Bike : Drivable {
 - checks for referential equality, meaning it checks if the two references point to the same object.
 ### Increment
 - `++something` , `--something` =  increment/decriment (Before)
-- `something++` ,  `something--`  = increment/decriment (After)  
+- `something++` ,  `something--`  = increment/decriment (After)
+### Kclass
+- `::class` Gets the KClass instance of the specified object or class.
