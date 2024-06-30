@@ -107,3 +107,15 @@ fun main() {
     }
 }
 ```
+```
+fun main() {
+    val name = "Sarah"
+
+    when (name) {
+        "Tony" -> println("T")
+        "john" -> println("J")
+        "Sarah" -> println("S")
+        else -> println("Unknown name")
+    }
+}
+```
