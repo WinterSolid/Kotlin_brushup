@@ -92,3 +92,18 @@ class Bike : Drivable {
 ### If/Else can be used ase ternary operators
 - in Java - `if (something) ? [option1]  : [option2] `
 - in Kotlin - `if (something){ [option1] else [option2] `
+
+### When - Kolin doesn't have Switch instead us "When" 
+- Example
+```
+fun main() {
+    val number = 2
+
+    when (number) {
+        1 -> println("One")
+        2 -> println("Two")
+        3 -> println("Three")
+        else -> println("Unknown number")
+    }
+}
+```
