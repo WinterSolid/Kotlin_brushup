@@ -81,3 +81,11 @@ class Bike : Drivable {
    - functions
    - constructors
    - annotations.
+- Example
+  ```
+    val kotlinClass = String::class
+    val javaClass = kotlinClass.java
+    
+    println("Kotlin class: ${kotlinClass.simpleName}")  // Output: String
+    println("Java class: ${javaClass.name}")
+  ```
