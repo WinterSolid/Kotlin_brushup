@@ -89,3 +89,6 @@ class Bike : Drivable {
     println("Kotlin class: ${kotlinClass.simpleName}")  // Output: String
     println("Java class: ${javaClass.name}")
   ```
+### If/Else can be used ase ternary operators
+- in Java - `if (something) ? [option1]  : [option2] `
+- in Kotlin - `if (something){ [option1] else [option2] `
