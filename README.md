@@ -174,4 +174,9 @@ fun main() {
 }
 
 ```
+###  Map
+- Example Convert all elements in list1 to lowercase
+   ` list1 = list1.map { it.lowercase() }.toMutableList()`
+- Use map to apply a transformation to each element in a list.
+- Convert the transformed list back to a mutable list using `toMutableList()` if you need to modify it further.
  
