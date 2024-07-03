@@ -196,6 +196,6 @@ fun main() {
     list1 = list1.map { it.lowercase() }.toMutableList()
     
     println(list1) // Output: [rick, morty, summer, mike, mini, momo]
-}
-  ```
+  }
+```
  
