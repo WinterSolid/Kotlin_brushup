@@ -180,13 +180,12 @@ fun main() {
 - Use map to apply a transformation to each element in a list.
 - Convert the transformed list back to a mutable list using `toMutableList()` if you need to modify it further.
   - Example
-  ```
+```
   fun main() {
     // Create arrays
     val array = arrayOf("Rick", "Morty", "Summer")
     val array2 = arrayOf("Mike", "Mini", "Momo")
     
-    // Create a mutable list
     var list1 = mutableListOf<String>()
     
     // Add all elements from array and array2 to list1
@@ -198,4 +197,7 @@ fun main() {
     println(list1) // Output: [rick, morty, summer, mike, mini, momo]
   }
 ```
- 
+# Ranges
+`for(i in 1..5)`  // 1 to 5
+   ` for(i in 5 downTo 1)` // 5 down to 1
+
