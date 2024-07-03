@@ -89,11 +89,11 @@ class Bike : Drivable {
     println("Kotlin class: ${kotlinClass.simpleName}")  // Output: String
     println("Java class: ${javaClass.name}")
   ```
-### If/Else can be used ase ternary operators
+## If/Else can be used ase ternary operators
 - in Java - `if (something) ? [option1]  : [option2] `
 - in Kotlin - `if (something){ [option1] else [option2] `
 
-### When - Kolin doesn't have Switch instead us "When" 
+## When - Kolin doesn't have Switch instead us "When" 
 - Example
 ```
 fun main() {
@@ -119,7 +119,7 @@ fun main() {
     }
 }
 ```
-### it  Keywod
+## it  Keywod
 - it, referring to a single parameter.
   - Example
 ```
@@ -133,7 +133,7 @@ numbers.forEach { println(it) }
 // 4
 // 5
 ```
-### Range values
+## Range values
 - example
   ```
   val age = 21
@@ -143,8 +143,8 @@ numbers.forEach { println(it) }
   in 20...32 -> Ptintln("What up")
   }
   ```
-### Destructuring an Array of List
-- An Array
+## Destructuring an Array of List
+### An Array
 ```
 fun main() {
     // Create an array
@@ -159,7 +159,7 @@ fun main() {
 }
 
 ```
-- An List
+### An List
 ```
 fun main() {
     // Create a list
@@ -174,7 +174,7 @@ fun main() {
 }
 
 ```
-###  Map
+##  Map
 - Convert all elements in list1 to lowercase
    ` list1 = list1.map { it.lowercase() }.toMutableList()`
 - Use map to apply a transformation to each element in a list.
@@ -197,11 +197,28 @@ fun main() {
     println(list1) // Output: [rick, morty, summer, mike, mini, momo]
   }
 ```
-### Ranges
+## Ranges
 -  1 to 5
 `for(i in 1..5)`
 - 5 down to 1
    ` for(i in 5 downTo 1)`
+## Step
+-  1 to 5 every 2nd element
+`for(i in 1..5 step 2)`
 
+## Do While
+```
+fun main() {
+    val brand = "Poopy B"
+    var index = 0
+
+    // Using do-while loop to iterate through the string
+    do {
+        println(brand[index])
+        index++
+    } while (index < brand.length)
+}
+```
+##
 
 
