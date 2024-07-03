@@ -197,7 +197,11 @@ fun main() {
     println(list1) // Output: [rick, morty, summer, mike, mini, momo]
   }
 ```
-# Ranges
-`for(i in 1..5)`  // 1 to 5
-   ` for(i in 5 downTo 1)` // 5 down to 1
+### Ranges
+-  1 to 5
+`for(i in 1..5)`
+- 5 down to 1
+   ` for(i in 5 downTo 1)`
+
+
 
