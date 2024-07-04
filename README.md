@@ -28,6 +28,20 @@
 
 `val isCool: Boolean = true`
 
+## Return value from function
+```
+fun add(a: Int, b: Int): Int {
+    return a + b
+}
+
+fun main() {
+    val sum = add(5, 3)
+    println("Sum: $sum") // Output: Sum: 8
+}
+```
+ - Or
+   `fun add(a: Int, b: Int): Int = a + b `
+
 ## Class 
 - choose a class when you need concrete implementations and state management
 ```
