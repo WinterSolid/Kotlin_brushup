@@ -238,7 +238,7 @@ fun main() {
     println("The number is: $number")
 }
 ```
-## Functions as Arguments
+## Functions as Arguments (but only the last argument)
 ```
 // Define a higher-order function that takes another function as a parameter
 fun operateOnNumbers(a: Int, b: Int, operation: (Int, Int) -> Int): Int {
