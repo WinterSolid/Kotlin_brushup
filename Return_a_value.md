@@ -49,3 +49,35 @@ fun main() {
     // Output: Name: Bob, Age: 25, Profession: Doctor
 }
 ```
+
+# Returning a Array or List
+```
+fun getNumbers(): List<Int> {
+    return listOf(1, 2, 3, 4, 5)
+}
+
+fun main() {
+    val numbers = getNumbers()
+    println("Numbers: $numbers")
+    // Output: Numbers: [1, 2, 3, 4, 5]
+}
+```
+
+# Returning a Map
+```
+fun getStudentScores(): Map<String, Int> {
+    return mapOf("Alice" to 90, "Bob" to 85, "Charlie" to 95)
+}
+
+fun main() {
+    val scores = getStudentScores()
+    scores.forEach { (name, score) ->
+        println("Name: $name, Score: $score")
+    }
+    // Output:
+    // Name: Alice, Score: 90
+    // Name: Bob, Score: 85
+    // Name: Charlie, Score: 95
+}
+
+```
