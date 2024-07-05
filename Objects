@@ -1,0 +1,32 @@
+# Objects
+- Provide a way to call functions and properties without creating an instance of the class.
+- Singletons and companion objects provide a single instance and static-like functionality.
+
+## Singleton object
+```
+object Singleton {
+    val name = "Singleton"
+    fun printName() {
+        println(name)
+    }
+}
+
+fun main() {
+    Singleton.printName() // Output: Singleton
+}
+```
+
+## companion object
+```
+class MyClass {
+    companion object {
+        fun create(): MyClass = MyClass()
+    }
+}
+
+fun main() {
+    val instance = MyClass.create()
+    println("Instance created: $instance")
+}
+
+```
