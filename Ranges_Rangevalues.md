@@ -9,7 +9,7 @@
   }
   ```
 
-## Ranges
+# Ranges
 -  1 to 5
 `for(i in 1..5)`
 - 5 down to 1
