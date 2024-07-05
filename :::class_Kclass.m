@@ -7,6 +7,7 @@
    - functions
    - constructors
    - annotations.
+   
 - Example
   ```
     val kotlinClass = String::class
