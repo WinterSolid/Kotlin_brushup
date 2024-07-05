@@ -14,7 +14,7 @@ fun main() {
 
 ```
 fun getCoordinates(): Pair<Int, Int> {
-    return Pair(10, 20)
+    return Pair(10, 20)  // or can express as:  return 10 to 20
 }
 
 fun main() {
