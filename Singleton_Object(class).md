@@ -1,4 +1,4 @@
-# Singleton Object(is a class)
+# Singleton Object(class like)
 - Defined globally and exists throughout the application
 - A singleton object is a class
 - is instantiated only once in the entire application.
