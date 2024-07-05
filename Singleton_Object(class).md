@@ -1,4 +1,5 @@
 # Singleton Object(is a class)
+- Defined globally and exists throughout the application
 - A singleton object is a class
 - is instantiated only once in the entire application.
 -  It is useful for cases where you need to maintain a single instance for:
