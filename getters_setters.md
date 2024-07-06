@@ -2,6 +2,7 @@
 - Are given by default without use of get or set
 - `get() = field`  field will be what ever you have for variable value
 - ie... so in this case field = color value
+- So if I want to also modify i can : Line:12 `field = value.uppercase()` to return values uppercased
 
 ```
 class SmartDevice {
