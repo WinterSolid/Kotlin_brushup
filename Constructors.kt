@@ -1,4 +1,6 @@
-# Primary Constructor - Defined in the class header and is concise. Suitable for simple initializations.
+/*
+ * Primary Constructor - Defined in the class header and is concise. Suitable for simple initializations.
+ */
 ``
 class Person(val name: String, var age: Int) {
     // Initialization block
@@ -29,7 +31,9 @@ fun main() {
 }
 
 ```
-# Secondary Constructor Defined inside the class. Useful for additional initialization logic or multiple constructors.
+/* 
+ * Secondary Constructor Defined inside the class. Useful for additional initialization logic or multiple constructors.
+ */
 ``
 class Person {
     var name: String
@@ -58,3 +62,29 @@ fun main() {
 }
 
 ``
+/*
+ * Example 2: Secondary Constructor
+ */
+class Person {
+    var name: String
+    var age: Int
+
+    // Primary constructor
+    constructor(name: String) {
+        this.name = name
+        this.age = 0
+    }
+
+    // Secondary constructor   age is added on to contructor so  "this.age = age " 
+    constructor(name: String, age: Int) : this(name) {
+        this.age = age
+    }
+}
+
+fun main() {
+    val person1 = Person("Alice", 30)
+    val person2 = Person("Bob")
+    println("${person1.name} is ${person1.age} years old")
+    println("${person2.name} is ${person2.age} years old")
+}
+
